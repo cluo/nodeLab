@@ -1,0 +1,32 @@
+node debug xxx
+n next
+s step
+o out
+c continue #run until break
+
+watch('expression')
+unwatch('expression')
+
+sb(filename,line)  sb(11)
+cb(filename,line)  cb(11)
+
+bt    #step in function ,return backtrace
+kill
+run
+restart
+repl
+list(n)
+scripts  #expect core module
+version
+
+#debug tool
+npm install -g node-inspector
+
+窗口1
+node --debug-brk 目标文件
+窗口2
+node-inspector 启动调试
+访问
+http://127.0.0.1:8080/debug?port=5858
+调试完继续
+node --debug-brk 目标文件
