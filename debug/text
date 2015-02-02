@@ -30,3 +30,16 @@ node-inspector 启动调试
 http://127.0.0.1:8080/debug?port=5858
 调试完继续
 node --debug-brk 目标文件
+
+
+npm update -g
+npm update
+npm update - g 包
+npm uninstall - g 包
+npm uninstall 包
+npmlist
+npm install 包
+npmview 包
+npmsearch 包
+npmconfig set prefix “全局包路径”
+

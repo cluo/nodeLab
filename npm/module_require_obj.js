@@ -1,10 +1,18 @@
-var name_1 = require('./export.js');
-var name_2 = require('./export.js');
-console.log(name_1.name)
-console.log(name_2.name);
-name_1.setName('chunling');
-var name = name_2.getName();
+var Foo = require('./module_exports.js');
+var foo = new Foo('cluo',30);
+var name = foo.GetName();
 console.log(name);
-var name = name_1.getName();
-console.log(name);
+console.log(foo.GetAge());
+foo.SetName('chunling');
+foo.SetAge(11)
+console.log(foo.GetName());
+console.log(foo.GetAge());
+
+foo.name='laogong';
+foo.age = 26;
+
+console.log(foo.name);
+console.log(foo.age);
+
+
 
