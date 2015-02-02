@@ -1,0 +1,8 @@
+chat-websocket
+git clone https://github.com/bsspirit/chat-websocket.git
+cd chat-websocket
+npm install
+node app.js
+
+主页
+https://github.com/bsspirit/chat-websocket

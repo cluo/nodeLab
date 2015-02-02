@@ -89,3 +89,11 @@ fs.symlink('./test','./test_symlink','dir',function(err){
     }
 })
 
+
+fs.readlink(__dirname+'/test_symlink/new_test.txt',function(err,linkString){
+        if(err){
+            console.log(err);
+        }else{
+            console.log(linkString);
+        }
+});
